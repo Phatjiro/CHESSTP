@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    
+}
+
+@layer components {
+    .btn-sidebar-black {
+        @apply text-gray-text font-bold bg-black-button w-full hover:bg-black-button-hover hover:text-white rounded
+    }
+
+    .btn-sidebar-green {
+        @apply text-white font-bold bg-green-button w-full hover:bg-green-button-hover rounded
+    }
+}
